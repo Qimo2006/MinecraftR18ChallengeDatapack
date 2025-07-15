@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_block",
+        "count": 1
+      },
+      "title": "铁块任务-完成",
+      "description": "铁块收集任务已完成",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "bc:bc_challenge/bc_challenge_start",
+    "criteria": {
+      "iron_block": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "iron_block"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

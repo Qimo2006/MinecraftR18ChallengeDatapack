@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "title": "开始挑战",
+      "description": "挑战已经开始！",
+      "background": "minecraft:block/stone",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "criteria": {
+      "challenge_start": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "challenge_start"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }

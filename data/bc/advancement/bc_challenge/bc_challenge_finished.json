@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:end_portal_frame",
+        "count": 1
+      },
+      "title": "挑战成功",
+      "description": "已经完成挑战！",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "bc:bc_challenge/bc_challenge_start",
+    "criteria": {
+      "challenge_finished": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "requirements": [
+      [
+        "challenge_finished"
+      ]
+    ],
+    "sends_telemetry_event": false
+  }
