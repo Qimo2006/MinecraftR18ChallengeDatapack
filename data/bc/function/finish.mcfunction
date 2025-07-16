@@ -10,4 +10,4 @@ title @a title [{"text":"挑战成功！","color":"green"}]
 tellraw @a [{"text":"[游戏结束]","color":"green"},{"text":"挑战成功！用时","color":"white"},{"score":{"objective":"option","name": "hour"},"color":"aqua"},{"text":"时","color":"white"},{"score":{"objective":"option","name": "minute"},"color":"aqua"},{"text":"分","color":"white"},{"score":{"objective":"option","name": "second"},"color":"aqua"},{"text":"秒！","color":"white"}]
 execute as @a at @s run summon firework_rocket ~ ~ ~
 execute as @a unless score @s punishmethod matches 0 run tellraw @s [{"text":"[释放任务]","color":"aqua"},{"text":"请将两根假阳具分别完全插入后穴、口穴，完成射精/高潮才可以拔出来~","color":"white"}]
-function bc:disable
+function game:disable

@@ -1,3 +1,7 @@
+#标题消除
+title @a times 1s 10s 1s
+title @a title {"text":"","color":"white"}
+
 #游戏规则初始化
 difficulty peaceful
 defaultgamemode adventure
@@ -37,6 +41,7 @@ scoreboard objectives add redstone_block trigger
 scoreboard objectives add heart trigger
 scoreboard objectives add customroulette trigger
 scoreboard objectives add ml1 dummy
+scoreboard objectives add game trigger
 
 #TAB和侧边栏初始化
 scoreboard objectives setdisplay sidebar renwu
@@ -50,12 +55,12 @@ scoreboard players set minute option 0
 scoreboard players set second option 0
 
 #计分项目初始化
-scoreboard players set start option -1
 scoreboard players set extra option 1
 scoreboard players set random option 0
 scoreboard players set multiplier option 10
 scoreboard players set test option 0
 scoreboard players set start option 0
+scoreboard players set game option 0
 scoreboard players set menu option 1
 scoreboard players set menu1 option 0
 
@@ -79,3 +84,4 @@ scoreboard players set @a ml 200
 scoreboard players set @a multiplier 30
 scoreboard players set @a heart 20
 scoreboard players set @a customroulette 1
+scoreboard players set @a game -1

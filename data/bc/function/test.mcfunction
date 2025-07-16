@@ -118,7 +118,7 @@ execute if score extra option matches 4.. as @a at @s if entity @a[advancements=
 execute if score extra option matches 4.. if entity @a[advancements={end/elytra=true}] run scoreboard players reset 找到鞘翅 renwu
 
 execute if score extra option matches 5.. if entity @a[advancements={bc:bc_challenge/kill_wither=true}] if score 击杀凋零 renwu matches -1 run tellraw @a [{"text":"[!]","color":"gold"},{"text":"击杀凋零额外任务已完成！","color":"white"}]
-execute if score extra option matches 5.. as @a at @s if entity @a[advancements={bc_challenge/kill_wither=true}] if score 击杀凋零 renwu matches -1 run playsound entity.firework_rocket.blast player @a ~ ~ ~
+execute if score extra option matches 5.. as @a at @s if entity @a[advancements={bc:bc_challenge/kill_wither=true}] if score 击杀凋零 renwu matches -1 run playsound entity.firework_rocket.blast player @a ~ ~ ~
 execute if score extra option matches 5.. if entity @a[advancements={bc:bc_challenge/kill_wither=true}] run scoreboard players reset 击杀凋零 renwu
 
 #额外任务分割线删除和游戏结束检测

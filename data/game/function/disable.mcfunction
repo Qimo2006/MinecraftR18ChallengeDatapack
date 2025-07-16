@@ -36,4 +36,4 @@ data remove storage bc:start_setting multiplier
 data remove storage bc:start_setting hardcoretime
 data remove storage bc:start_setting heart
 schedule clear bc:hardcore
-datapack disable "file/MC挑战任务.zip"
+datapack disable "file/MinecraftR18ChallengeDatapack.zip"

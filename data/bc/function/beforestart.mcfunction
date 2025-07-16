@@ -1,4 +1,5 @@
 #菜单：有数值变化的时候重新展示菜单
+scoreboard players enable @a game
 execute if score start option matches 0 run execute store success score menu1 option run scoreboard players enable @a count
 execute if score menu1 option matches 1 run scoreboard players set menu option 1
 execute if score start option matches 0 run execute store success score menu1 option run scoreboard players enable @a count1

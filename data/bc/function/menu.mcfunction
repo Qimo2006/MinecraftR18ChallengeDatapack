@@ -1,9 +1,10 @@
-#进入游戏时显示的游戏菜单
+#普通模式游戏菜单
 
+tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}
 tellraw @a [{"text":"-----------------------------------------------------","color":"white"}]
-tellraw @a [{"hover_event":{"action":"show_text","value":{"text":"By Qimo","color":"aqua"}},"text":"               MC挑战任务","color":"gold"}]
+tellraw @a [{"hover_event":{"action":"show_text","value":{"text":"By Qimo","color":"aqua"}},"text":"               MC挑战任务     普通模式","color":"gold"}]
 tellraw @a [{"text":"Tip:鼠标放在文字上可以看到相关说明","color":"gray"}]
-
+tellraw @a [{"text":"[返回上一级]","color":"white","click_event":{"action":"run_command","command":"/trigger game set 0"}}]
 #游戏内容相关选项
 tellraw @a [{"hover_event":{"action":"show_text","value":{"text":"关于游戏惩罚内容的选项","color":"white"}},"text":"内容选项：","color":"aqua"}]
 #挑战类型（死亡惩罚类型）
